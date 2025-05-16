@@ -7,14 +7,14 @@ const products = [
     img: "/img/Flowers/f1.jpg",
     title: "Flowers",
     description: "Beautiful fresh flowers for every occasion.",
-    link: "/product/flowers", 
+    link: "/pages/product/flowers", 
 
   },
   {
     img: "/img/v/v3.jpg",
     title: "Vegetables",
     description: "Organic vegetables sourced locally.",
-    link: "/product/vegetables",
+    link: "/pages/product/fruits",
   },
   {
     img: "/img/fruits/u1.jpg",
