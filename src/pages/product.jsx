@@ -20,20 +20,20 @@ const products = [
     img: "/img/fruits/u1.jpg",
     title: "Fruits",
     description: "Juicy, fresh fruits picked daily for your health.",
-    link: "/product/fruits",
+    link: "/pages/product/fruits",
   },
   
   {
     img: "/img/terraced/1.jpg",
     title: "Terrace Decoration",
     description: "Breathe life into your terrace with green decor.",
-    link: "/product/terrace",
+    link: "/pages/product/terrace",
   },
   {
     img: "/img/indoor/1.jpg",
     title: "Indoor Decoration",
     description: "Stylish indoor arrangements for a cozy feel.",
-    link: "/product/indoor",
+    link: "/pages/product/indoor",
   },
   {
     img: "/img/office/1.jpg",
