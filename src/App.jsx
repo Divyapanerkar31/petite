@@ -4,7 +4,7 @@ import Navbar from "./pages/navbar";
 import Home from "./pages/Home";
 import Product from "./pages/product";
 import About from "./pages/About";
-import Flowers from "./pages/product/flowers";
+import Flowers from "./pages/product/Flowers";
 import Fruits from "./pages/product/fruits";
 import Indoor from "./pages/product/indoor";
 import Office from "./pages/product/office";
