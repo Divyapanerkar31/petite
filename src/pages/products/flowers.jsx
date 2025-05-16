@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../css/flowers.css';
+import '../../css/flowers.css'
 import { useNavigate } from 'react-router-dom';
 import { jsPDF } from 'jspdf';
 
