@@ -4,16 +4,16 @@ import Navbar from "./pages/navbar";
 import Home from "./pages/Home";
 import Product from "./pages/product";
 import About from "./pages/About";
-import Flowers from './pages/product/Flowers'
-import Fruits from "./pages/product/fruits";
-import Indoor from "./pages/product/Indoor";
-import Office from "./pages/product/Office";
-import Terrace from "./pages/product/terrace";
-import Ornamental from "./pages/product/ornamental";
-import Vegetables from "./pages/product/vegetables"; 
-import Leaves from "./pages/product/Leaves";
+import Flowers from './pages/products/flowers'
+import Fruits from "./pages/products/fruits";
+import Indoor from "./pages/products/indoor";
+import Office from "./pages/products/office";
+import Terrace from "./pages/products/terrace";
+import Ornamental from "./pages/products/ornamental";
+import Vegetables from "./pages/products/vegetables"; 
+import Leaves from "./pages/products/leaves";
 import Contact from "./pages/Contact";
-import Outdoor from "./pages/product/outdoor";
+import Outdoor from "./pages/products/outdoor";
 function App() {
   return (
     <Router>
