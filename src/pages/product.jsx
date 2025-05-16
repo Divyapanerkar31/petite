@@ -10,12 +10,7 @@ const products = [
     link: "/product/flowers", 
 
   },
-  {
-    img: "/img/v/v3.jpg",
-    title: "Vegetables",
-    description: "Organic vegetables sourced locally.",
-    link: "/product/vegetable",
-  },
+ 
   {
     img: "/img/fruits/u1.jpg",
     title: "Fruits",
