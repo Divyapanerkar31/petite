@@ -4,13 +4,13 @@ import Navbar from "./pages/navbar";
 import Home from "./pages/Home";
 import Product from "./pages/product";
 import About from "./pages/About";
-import Flowers from "./pages/product/Flowers";
+import Flowers from './pages/product/Flowers'
 import Fruits from "./pages/product/fruits";
 import Indoor from "./pages/product/indoor";
 import Office from "./pages/product/office";
 import Terrace from "./pages/product/terrace";
 import Ornamental from "./pages/product/ornamental";
-import Vegetables from "./pages/product/vegetables"; // 
+import Vegetables from "./pages/product/vegetables"; 
 import Leaves from "./pages/product/leaves";
 import Contact from "./pages/Contact";
 import Outdoor from "./pages/product/outdoor";
