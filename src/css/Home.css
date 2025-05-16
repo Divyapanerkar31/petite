@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #e0f7fa, #dcedc8, #c8e6c9);
+  background-size: 300% 300%;
+  animation: gradientFlow 15s ease infinite;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  animation: fadeInContainer 0.6s ease-in;
+  position: relative;
+ 
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  flex: 1;
+  gap: 40px;
+  flex-wrap: wrap;
+  animation: fadeInContainer 1s ease-in-out;
+  z-index: 2;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+  animation: floatFade 3s ease-in-out infinite;
+}
+
+.text-content h1 {
+  font-size: 2.7em;
+  font-weight: 700;
+  color: #1e4620;
+  margin-bottom: 10px;
+}
+
+.text-content h2 {
+  font-size: 1.3em;
+  color: #3a3a3a;
+  opacity: 0;
+  animation: fadeInText 1.5s ease-out 0.4s forwards;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #1b5e20;
+}
+
+.image-content {
+  flex: 1;
+  min-width: 100px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeInImage 1s ease-out 0.5s forwards;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  animation: slideInRight 1s ease-out 0.5s forwards;
+}
+
+
+.floating-leaves {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.leaf {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url('/leaf.png') no-repeat center/contain;
+  opacity: 0.7;
+  animation: drift 12s linear infinite;
+}
+
+.leaf1 {
+  top: 10%;
+  left: -10%;
+  animation-delay: 0s;
+}
+
+.leaf2 {
+  top: 40%;
+  left: -15%;
+  animation-delay: 4s;
+}
+
+.leaf3 {
+  top: 70%;
+  left: -20%;
+  animation-delay: 8s;
+}
+
+@keyframes drift {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateX(50vw) translateY(-30px) rotate(90deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100vw) translateY(10px) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-content {
+    text-align: center;
+  }
+}
+
+
+
+@keyframes fadeInContainer {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInText {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInImage {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes floatFade {
+  0% { transform: translateY(0); opacity: 0.7; }
+  50% { transform: translateY(-10px); opacity: 1; }
+  100% { transform: translateY(0); opacity: 0.9; }
+}
+
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
