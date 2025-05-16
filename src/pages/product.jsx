@@ -60,8 +60,9 @@ const Product = () => {
   const navigate = useNavigate(); 
 
   const handleCardClick = (link) => {
-    window.location.href = link; 
+    navigate(link);
   };
+
 
   return (
     <div>

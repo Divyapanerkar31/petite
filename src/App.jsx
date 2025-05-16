@@ -32,8 +32,8 @@ function App() {
         <Route path="/product/ornamental" element={<Ornamental />} />
         <Route path="/product/leaves" element={<Leaves />} />
         
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
