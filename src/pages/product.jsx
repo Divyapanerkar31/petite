@@ -7,33 +7,33 @@ const products = [
     img: "/img/Flowers/f1.jpg",
     title: "Flowers",
     description: "Beautiful fresh flowers for every occasion.",
-    link: "/pages/product/flowers", 
+    link: "/product/flowers", 
 
   },
   {
     img: "/img/v/v3.jpg",
     title: "Vegetables",
     description: "Organic vegetables sourced locally.",
-    link: "/pages/product/fruits",
+    link: "/product/vegetable",
   },
   {
     img: "/img/fruits/u1.jpg",
     title: "Fruits",
     description: "Juicy, fresh fruits picked daily for your health.",
-    link: "/pages/product/fruits",
+    link: "/product/fruits",
   },
   
   {
     img: "/img/terraced/1.jpg",
     title: "Terrace Decoration",
     description: "Breathe life into your terrace with green decor.",
-    link: "/pages/product/terrace",
+    link: "/product/terrace",
   },
   {
     img: "/img/indoor/1.jpg",
     title: "Indoor Decoration",
     description: "Stylish indoor arrangements for a cozy feel.",
-    link: "/pages/product/indoor",
+    link: "/product/indoor",
   },
   {
     img: "/img/office/1.jpg",

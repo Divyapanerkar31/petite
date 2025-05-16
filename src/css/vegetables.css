@@ -76,20 +76,20 @@ body {
   background-color: #0056b3;
 }
 
-/* === Flower Page === */
-.flower-page {
+/* === vegetable Page === */
+.vegetable-page {
   padding: 20px;
 }
 
-/* Flower Container */
-.flower-container {
+/* vegetable Container */
+.vegetable-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
-.flower-card {
+.vegetable-card {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -102,11 +102,11 @@ body {
   position: relative;
 }
 
-.flower-card:hover {
+.vegetable-card:hover {
   transform: scale(1.05);
 }
 
-.flower-image {
+.vegetable-image {
   width: 100%;
   height: 150px;
   object-fit: cover;
@@ -285,7 +285,7 @@ body {
 
 /* === Responsive === */
 @media screen and (max-width: 600px) {
-  .flower-card,
+  .vegetable-card,
   .vegetable-card {
     width: 90%;
   }
