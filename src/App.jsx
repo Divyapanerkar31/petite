@@ -6,12 +6,12 @@ import Product from "./pages/product";
 import About from "./pages/About";
 import Flowers from './pages/product/Flowers'
 import Fruits from "./pages/product/fruits";
-import Indoor from "./pages/product/indoor";
-import Office from "./pages/product/office";
+import Indoor from "./pages/product/Indoor";
+import Office from "./pages/product/Office";
 import Terrace from "./pages/product/terrace";
 import Ornamental from "./pages/product/ornamental";
 import Vegetables from "./pages/product/vegetables"; 
-import Leaves from "./pages/product/leaves";
+import Leaves from "./pages/product/Leaves";
 import Contact from "./pages/Contact";
 import Outdoor from "./pages/product/outdoor";
 function App() {
