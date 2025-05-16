@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../css/outdoor.css';
+import '../../css/Outdoor.css';
 import { useNavigate } from 'react-router-dom';
 import { jsPDF } from 'jspdf';
 
